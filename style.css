@@ -1,0 +1,51 @@
+@font-face{
+    src:url(./SF-Pro.ttf);
+    font-family:"apple-font"
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    /* font-family:"apple-font" */
+}
+
+body{
+    font-family:"apple-font";
+    width:100%;
+    height:100vh;
+    background-image:url(./background.jfif);
+    background-size:cover;
+    background-position:center;
+    display:grid;
+    place-items:center;
+}
+.counter-holder h1{
+    color: #fff;
+
+}
+.counter-holder{
+    font-size:1.5rem;
+    display:grid;
+    place-items:center;
+}
+.counter-holder h4{
+    margin-block:20px;
+}
+.counter-holder .buttons{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+}
+.counter-holder button{
+    padding-inline:10px;
+    font-size:1.3rem;
+    background-color:white;
+    border:1px solid #555;
+    border-radius:5px; 
+}
+
+
+
+
+
+
